@@ -1,0 +1,50 @@
+# LatZK-MedFL — public code release
+# Ignore research dumps, build artifacts, and local runs; track the implementation.
+
+# --- secrets / env ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Local experiment outputs (regenerate via notebook) ---
+results/
+**/results/
+*.zip
+
+# --- Large / local research materials (not part of public code repo) ---
+literature/
+analysis/
+manuscript/
+evidence/
+
+# --- Misc local uploads ---
+LatZK_MedFL_Colab_ran.ipynb
+IEEE_Access_LaTeX_template__1_.zip
+manuscript.zip
+results.zip
